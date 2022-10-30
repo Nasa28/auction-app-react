@@ -4,7 +4,7 @@ import { Route, Routes } from 'react-router-dom';
 import socketIO from 'socket.io-client';
 import AddItem from './components/AddItem';
 
-const socket = socketIO.connect('http://localhost:5000');
+const socket = socketIO.connect('https://voggt-auction-app.herokuapp.com/');
 function App() {
   return (
     <div className="main">
