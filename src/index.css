@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  background-color: rgb(50, 50, 52);
+}
+
+.main {
+  margin: 0 12%;
+}
+
+@media only screen and (min-width: 768px) {
+  .main {
+    margin: 0 150px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .main {
+    margin: 0 300px;
+  }
+}
+
+.home_form,
+.addItem__form {
+  width: 100%;
+  height: 80vh;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home__input,
+.addItem__form input,
+.bidItem__form input {
+  width: 70%;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 15px 0;
+  outline: none;
+  border: 1px solid #576F72
+}
+
+.home__cta {
+  width: 200px;
+  padding: 10px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  background-color: rgb(67, 94, 143);
+}
+
+.live {
+  background-color: rgb(247, 58, 22);
+  border-radius: 15px;
+  width: 50px;
+}
+
+.live p {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 2px;
+}
+
+.bidding-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.bidding-buttons button,
+.counter button {
+  color: #ffffff;
+  background-color: rgb(22, 22, 24);
+  padding: 10px 40px;
+  border-radius: 50px;
+  border: none;
+}
+
+.item-box {
+  background-color: rgb(32, 32, 34);
+  margin-top: 20px;
+  height: 200px;
+  border-radius: 30px;
+}
+
+.item-detail,
+.counter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 6%;
+
+}
+
+.item-detail button {
+  background-color: rgb(247, 58, 22);
+  color: rgb(255, 255, 255);
+  padding: 5px 10px;
+  border-radius: 50px;
+  border: none;
+}
+
+.item-detail p,
+.counter {
+  color: rgb(255, 255, 255);
+}
+
+.form {
+  margin-top: 20%;
+}
+
+.form input,
+.form button {
+  padding: 10px 10px;
+  border-radius: 50px;
+  color: #ffffff;
+  border: none;
+  background-color: rgb(22, 22, 24);
+}
+
+.form input {
+  width: 80%;
+}
+
+.links {
+  color: #fff;
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 4px 6px 4px 6px;
+  border-radius: 2px;
+}
