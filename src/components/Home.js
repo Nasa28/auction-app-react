@@ -25,7 +25,7 @@ const Home = ({ socket }) => {
           required
           minLength={6}
         />
-        <button className="home__cta">SIGN IN</button>
+        <button className="home__cta">ENTER AUCTION</button>
       </form>
     </div>
   );
